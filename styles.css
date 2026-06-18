@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
-::selection { background: #1A2B4D; color: #FAF6EF; }
+::selection { background: #2B1A3D; color: #FAF6EF; }
 img { display: block; max-width: 100%; }
 a { transition: color 0.2s; }
 button { cursor: pointer; }
@@ -35,7 +35,7 @@ button { cursor: pointer; }
   transition: background 0.4s ease, box-shadow 0.4s ease;
 }
 .site-header.scrolled {
-  background: rgba(16, 25, 45, 0.92);
+  background: rgba(28, 16, 41, 0.92);
   backdrop-filter: saturate(140%) blur(14px);
   -webkit-backdrop-filter: saturate(140%) blur(14px);
   box-shadow: 0 1px 0 rgba(216, 195, 154, 0.16);
@@ -82,7 +82,7 @@ button { cursor: pointer; }
 .nav-link:hover { color: #D8C39A; }
 .header-cta {
   background: #BE9E62;
-  color: #10192D;
+  color: #1C1029;
   font-weight: 600;
   font-size: 14px;
   padding: 11px 20px;
@@ -115,7 +115,7 @@ button { cursor: pointer; }
 /* ===== HERO ===== */
 .hero {
   position: relative;
-  background: #10192D;
+  background: #1C1029;
   color: #FAF6EF;
   overflow: hidden;
 }
@@ -124,7 +124,7 @@ button { cursor: pointer; }
   inset: 0;
   background:
     radial-gradient(120% 90% at 82% 8%, rgba(190, 158, 98, 0.16) 0%, rgba(190, 158, 98, 0) 46%),
-    radial-gradient(90% 80% at 0% 100%, rgba(86, 125, 180, 0.30) 0%, rgba(86, 125, 180, 0) 55%);
+    radial-gradient(90% 80% at 0% 100%, rgba(125, 86, 168, 0.30) 0%, rgba(125, 86, 168, 0) 55%);
 }
 .hero-inner {
   position: relative;
@@ -190,7 +190,7 @@ button { cursor: pointer; }
   align-items: center;
   gap: 12px;
   background: #BE9E62;
-  color: #10192D;
+  color: #1C1029;
   font-weight: 600;
   font-size: 15.5px;
   letter-spacing: 0.01em;
@@ -261,7 +261,7 @@ button { cursor: pointer; }
   overflow: hidden;
   border: 1px solid rgba(216, 195, 154, 0.28);
   background-image: repeating-linear-gradient(135deg, rgba(216, 195, 154, 0.10) 0 2px, transparent 2px 13px);
-  background-color: #132040;
+  background-color: #241334;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -280,7 +280,7 @@ button { cursor: pointer; }
   position: relative;
   width: 100%;
   padding: 26px;
-  background: linear-gradient(0deg, rgba(16, 25, 45, 0.92) 0%, rgba(16, 25, 45, 0) 100%);
+  background: linear-gradient(0deg, rgba(28, 16, 41, 0.92) 0%, rgba(28, 16, 41, 0) 100%);
 }
 .portrait-name {
   font-family: 'Manrope', sans-serif;
@@ -300,7 +300,7 @@ button { cursor: pointer; }
   top: -26px;
   right: -22px;
   background: #FAF6EF;
-  color: #10192D;
+  color: #1C1029;
   padding: 18px 22px;
   border-radius: 3px;
   box-shadow: 0 24px 50px -22px rgba(0, 0, 0, 0.55);
@@ -320,7 +320,7 @@ button { cursor: pointer; }
 
 /* ===== TRUST STRIP ===== */
 .trust-strip {
-  background: #10192D;
+  background: #1C1029;
   border-top: 1px solid rgba(216, 195, 154, 0.16);
 }
 .trust-inner {
@@ -407,7 +407,7 @@ button { cursor: pointer; }
 }
 .service-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 30px 60px -34px rgba(26, 43, 77, 0.4);
+  box-shadow: 0 30px 60px -34px rgba(43, 26, 61, 0.4);
   border-color: #D8C39A;
 }
 .service-num {
@@ -424,7 +424,7 @@ button { cursor: pointer; }
   align-items: center;
   justify-content: center;
   margin: 18px 0 26px;
-  color: #1A2B4D;
+  color: #2B1A3D;
 }
 .service-icon span {
   font-family: 'Newsreader', serif;
@@ -486,7 +486,7 @@ button { cursor: pointer; }
 .approach-image-frame {
   aspect-ratio: 5/6;
   border-radius: 4px;
-  background-image: repeating-linear-gradient(135deg, rgba(26, 43, 77, 0.07) 0 2px, transparent 2px 14px);
+  background-image: repeating-linear-gradient(135deg, rgba(43, 26, 61, 0.07) 0 2px, transparent 2px 14px);
   background-color: #E7DCC8;
   border: 1px solid #DECFB4;
   display: flex;
@@ -497,18 +497,18 @@ button { cursor: pointer; }
   font-family: ui-monospace, Menlo, monospace;
   font-size: 11px;
   letter-spacing: 0.08em;
-  color: rgba(26, 43, 77, 0.5);
+  color: rgba(43, 26, 61, 0.5);
 }
 .approach-quote-card {
   position: absolute;
   bottom: -30px;
   right: -30px;
   width: 64%;
-  background: #1A2B4D;
+  background: #2B1A3D;
   color: #FAF6EF;
   padding: 30px;
   border-radius: 3px;
-  box-shadow: 0 30px 60px -28px rgba(26, 43, 77, 0.6);
+  box-shadow: 0 30px 60px -28px rgba(43, 26, 61, 0.6);
 }
 .approach-quote-card p {
   font-family: 'Newsreader', serif;
@@ -540,7 +540,7 @@ button { cursor: pointer; }
   font-family: 'Newsreader', serif;
   font-size: 42px;
   line-height: 1;
-  color: #1A2B4D;
+  color: #2B1A3D;
 }
 .stat-label {
   font-size: 14px;
@@ -602,7 +602,7 @@ button { cursor: pointer; }
 
 /* ===== BOOKING ===== */
 .booking {
-  background: #1A2B4D;
+  background: #2B1A3D;
   color: #FAF6EF;
   padding: 120px 40px;
 }
@@ -725,7 +725,7 @@ button { cursor: pointer; }
 }
 .form-submit {
   margin-top: 6px;
-  background: #1A2B4D;
+  background: #2B1A3D;
   color: #FAF6EF;
   font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 600;
@@ -736,7 +736,7 @@ button { cursor: pointer; }
   transition: background 0.25s, transform 0.2s;
 }
 .form-submit:hover {
-  background: #243B5F;
+  background: #3A2455;
   transform: translateY(-1px);
 }
 .form-submit.submitted {
@@ -752,7 +752,7 @@ button { cursor: pointer; }
 
 /* ===== FOOTER ===== */
 .site-footer {
-  background: #0B1220;
+  background: #150C1F;
   color: rgba(250, 246, 239, 0.72);
   padding: 72px 40px 40px;
 }
@@ -833,7 +833,7 @@ button { cursor: pointer; }
   position: fixed;
   inset: 0;
   z-index: 49;
-  background: rgba(16, 25, 45, 0.97);
+  background: rgba(28, 16, 41, 0.97);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   display: flex;
@@ -864,7 +864,7 @@ button { cursor: pointer; }
 .mobile-nav-cta {
   margin-top: 16px;
   background: #BE9E62;
-  color: #10192D !important;
+  color: #1C1029 !important;
   font-family: 'Hanken Grotesk', sans-serif !important;
   font-size: 16px !important;
   font-weight: 600;
